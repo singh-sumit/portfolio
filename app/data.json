@@ -1,0 +1,399 @@
+{
+  "basics": {
+    "name": "Er. Sumit Kumar Singh",
+    "email": "singhsumit9824@gmail.com",
+    "phone": "+9779824361394",
+    "photo": {
+      "url": "https://cdn.rxresu.me/uploads/281200/273038/1669827126561.jfif",
+      "filters": {
+        "size": 124,
+        "shape": "circle",
+        "border": true,
+        "grayscale": false
+      },
+      "visible": true
+    },
+    "summary": "o Computer engineer with 2 years of professional experience and 2+ years of non-professional experience, in core python, javascript, and other tech stack used in software development, clinical domain.\n\n\no Self-motivated developer, interested in architecture development, who likes to solve challenging problems.",
+    "website": "https://singh-sumit.github.io/",
+    "headline": "Software Engineer | NEC Reg. No. - 9577 | Python | Django | ReactJs | Azure",
+    "location": {
+      "city": "Kathmandu",
+      "region": "",
+      "address": "",
+      "country": "Nepal (Able to relocate)",
+      "postalCode": ""
+    },
+    "profiles": [
+      {
+        "id": "fed8d973-8bca-490d-b885-8833ec7497ac",
+        "url": "https://github.com/singh-sumit/",
+        "network": "Github",
+        "username": "singh-sumit"
+      },
+      {
+        "id": "d810ca54-80d0-424f-8474-d34c2ed7dd9f",
+        "url": "https://linkedin.com/in/er-sumitsingh",
+        "network": "Linkedin",
+        "username": "er-sumitsingh"
+      },
+      {
+        "id": "25ff1ff3-41d3-49a5-9c53-0c9d21567429",
+        "url": "https://stackoverflow.com/users/11759288/sumit-kumar-singh",
+        "network": "Stackoverflow",
+        "username": "sumit-kumar-singh"
+      }
+    ],
+    "birthdate": "1998-08-21"
+  },
+  "sections": {
+    "work": {
+      "id": "work",
+      "name": "Experience",
+      "type": "work",
+      "items": [
+        {
+          "id": "a4ef26d7-08b6-4d14-8f93-a9af8fa65a85",
+          "url": "https://www.numericmind.com",
+          "date": {
+            "end": "",
+            "start": "2022-09-23T17:00:31.000Z"
+          },
+          "name": "Numeric Minds, Nepal",
+          "summary": "NumericMind is a statistical data solution company providing full statistical analysis services primarily to the clients from Biotech, Healthcare, and Pharmaceuticals industries.\n\n• Worked on Backend to create restful api for multi-tennant applications.\n\n• Used Kubernetes to programmatically start and stop R server pod, reducing cost of operation.\n\n• Mentored juniors on their task. \n\n• Worked with celery to schedule the task of creating reports.\n\n• Worked on ReactJs & AntDesign to create UI components.",
+          "position": "Software Developer"
+        },
+        {
+          "id": "307fdee7-c2be-4cc7-bd46-39a003423947",
+          "url": "https://www.numericmind.com",
+          "date": {
+            "end": "2022-09-22T17:06:33.000Z",
+            "start": "2021-10-21T17:00:31.000Z"
+          },
+          "name": "Numeric Minds, Nepal",
+          "summary": "• Worked with PyQt, in developing Desktop Clinical Analytics Application for report generation.\n\n• Created library to convert rich text files (used mostly on the clinical domain) to pdf/doc format with python, to prepare processed reports.\n\n• Woked with Django and reactJs on creating Report designer to facilitate automated clinical report generation(Table/ Listing / Figure - TFLs)\n\n• Worked on Low-Code solution for Report (Table/Listing/Figure) generation, through Template Editor to create a custom template.",
+          "position": "Python Developer"
+        },
+        {
+          "id": "d0c24c14-6450-4928-a7bd-95bf6f997563",
+          "url": "https://nimble-cr.com/",
+          "date": {
+            "end": "",
+            "start": "2021-10-12"
+          },
+          "name": "Nimble Clinical Research, USA",
+          "summary": "Nimble Clinical Research is a US-based research company dedicated towards creating cutting-edge AI based platform for pharmaceutical and biotech companies.\nNumeric Minds is Nepali partnered company for Nimble Clinical Research.",
+          "position": "Software Developer"
+        }
+      ],
+      "columns": 1,
+      "visible": true
+    },
+    "awards": {
+      "id": "awards",
+      "name": "Certifications",
+      "type": "basic",
+      "items": [
+        {
+          "id": "21422b71-c9da-4848-bc3e-6bc5cb4bfc5f",
+          "url": "https://drive.google.com/file/d/1n9fZV6EUdrcnBKCrMpa5bV6D4_9Awoxg/view",
+          "date": "2021-06-14T17:48:50.000Z",
+          "title": "Web Development with Python using Django",
+          "awarder": "Genese Cloud Academy",
+          "summary": ""
+        },
+        {
+          "id": "efd94275-b9c4-476e-9683-a6a430bcd63a",
+          "url": "https://media.geeksforgeeks.org/certificates/1602050158/99dd1dd79ae19959986b746b7ce06bcd.pdf",
+          "date": "2020-10-04T17:49:55.000Z",
+          "title": "Java OOPS Workshop",
+          "awarder": "GeeksforGeeks",
+          "summary": ""
+        }
+      ],
+      "columns": 1,
+      "visible": true
+    },
+    "skills": {
+      "id": "skills",
+      "name": "Skills",
+      "type": "basic",
+      "items": [
+        {
+          "id": "e7d69ab3-9bdc-4800-b14e-af838c1788f1",
+          "name": "Python",
+          "level": "",
+          "keywords": [],
+          "levelNum": 0
+        },
+        {
+          "id": "d199c277-ed5d-4d2a-a53d-46d6c0f59f3b",
+          "name": "JavaScript",
+          "level": "",
+          "keywords": [],
+          "levelNum": 0
+        },
+        {
+          "id": "a434b3c6-9429-46f2-88fb-7637917b7a84",
+          "name": "Django Rest Framework",
+          "level": "",
+          "keywords": [],
+          "levelNum": 0
+        },
+        {
+          "id": "9f757312-e0a9-47f1-b8c6-ba0fc974c8e8",
+          "name": "ReactJs",
+          "level": "",
+          "keywords": [],
+          "levelNum": 0
+        },
+        {
+          "id": "5b75adee-66ea-4d66-a558-7df23a4b9d06",
+          "name": "Postgresql",
+          "level": "",
+          "keywords": [],
+          "levelNum": 0
+        },
+        {
+          "id": "5f324ab1-c999-4af8-a4f5-e1abf81480a4",
+          "name": "MySQL",
+          "level": "",
+          "keywords": [],
+          "levelNum": 0
+        },
+        {
+          "id": "bc4e0741-1652-4dc2-a100-1f5afbfb1daf",
+          "name": "FastAPI",
+          "level": "",
+          "keywords": [],
+          "levelNum": 0
+        },
+        {
+          "id": "0eda017c-0654-4172-85d6-5775f0f92c81",
+          "name": "Redux",
+          "level": "",
+          "keywords": [],
+          "levelNum": 0
+        },
+        {
+          "id": "2d9eb504-3adb-4f5f-9c59-b4465e936b75",
+          "name": "Java",
+          "level": "",
+          "keywords": [],
+          "levelNum": 0
+        },
+        {
+          "id": "eb8ebdb9-4b1e-4e55-be84-6be9cdf57494",
+          "name": "C++",
+          "level": "",
+          "keywords": [],
+          "levelNum": 0
+        },
+        {
+          "id": "902dd97e-8413-4cf6-8d68-c5a6dd20b77d",
+          "name": "Git",
+          "level": "",
+          "keywords": [],
+          "levelNum": 0
+        },
+        {
+          "id": "925065af-16f0-4501-98d1-b05a68f2f547",
+          "name": "Ant Design",
+          "level": "",
+          "keywords": [],
+          "levelNum": 0
+        },
+        {
+          "id": "76860e9f-53b7-40f6-bf2d-1074f2f7f43b",
+          "name": "Atlassian (Jira. BitBucket, Confluence)",
+          "level": "",
+          "keywords": [],
+          "levelNum": 0
+        },
+        {
+          "id": "3b3fc78c-359e-4b4c-9123-b6ebd0a37930",
+          "name": "Docker, Kubernetes",
+          "level": "Intermediate",
+          "keywords": [],
+          "levelNum": 0
+        }
+      ],
+      "columns": 2,
+      "visible": true
+    },
+    "projects": {
+      "id": "projects",
+      "name": "Projects",
+      "type": "basic",
+      "items": [
+        {
+          "id": "3961426b-9bb5-4e5d-ab83-bdcc90d0254a",
+          "url": "https://iamsumit.pythonanywhere.com/",
+          "date": {
+            "end": "",
+            "start": ""
+          },
+          "name": "Simple E-commerce Web-app",
+          "summary": "• Developed a simple e-commerce web-app using Django and MySQl. \n\n• Started with the concept One Admin Multiple Customer(meaning single admin manages product). \n\n• Future activites :- Design a Multi-Vendor E-commerce platform(where single admin manages multiple merchants and multiple merchants are  allowed to put their products and track them, while the customer to buy those products)",
+          "keywords": [],
+          "description": "-"
+        },
+        {
+          "id": "c55317c2-fe74-4a09-99a4-5b5665ac13ba",
+          "url": "https://github.com/singh-sumit/django-vehicle-renting",
+          "date": {
+            "end": "",
+            "start": ""
+          },
+          "name": "E-Vehicle Renting Web-app",
+          "summary": "• Developed a e-vehicle renting web-app using Django and Postgres.\n\n• Provides a platform where Owner rent their vehicle, Customer makes reserve request for a vehicle, and Booth Manager grants/denies the reserve request.\n\n• Has income management system integrated with for every entities.",
+          "keywords": [],
+          "description": "."
+        },
+        {
+          "id": "863d044e-7fac-4a0c-83fb-ec27a1515743",
+          "url": "https://my-wheater-app.herokuapp.com/",
+          "date": {
+            "end": "",
+            "start": ""
+          },
+          "name": "Weather App Using React Js",
+          "summary": "",
+          "keywords": [],
+          "description": "• Developed using React Js and open wheather api.  • Added search functionality to search wheather with city value."
+        }
+      ],
+      "columns": 1,
+      "visible": true
+    },
+    "education": {
+      "id": "education",
+      "name": "Education",
+      "type": "basic",
+      "items": [
+        {
+          "id": "4c9db8ba-db95-4bb1-9c8e-a13891aa2f13",
+          "url": "https://pufost.edu.np/",
+          "area": "Computer Engineering",
+          "date": {
+            "end": "2020-11-30T17:12:48.929Z",
+            "start": "2016-11-30T17:12:37.411Z"
+          },
+          "score": "",
+          "degree": "Bachelor",
+          "courses": [],
+          "summary": "CGPA : 3.45\n- Got an open scholarship during the entire semester.\n- Major Electives:\n - Artificial Intelligence\n - Geographical Intelligence System (GIS)",
+          "institution": "Purwanchal University"
+        }
+      ],
+      "columns": 1,
+      "visible": true
+    },
+    "interests": {
+      "id": "interests",
+      "name": "Interests",
+      "type": "basic",
+      "items": [],
+      "columns": 2,
+      "visible": true
+    },
+    "languages": {
+      "id": "languages",
+      "name": "Programming Languages",
+      "type": "basic",
+      "items": [],
+      "columns": 2,
+      "visible": true
+    },
+    "volunteer": {
+      "id": "volunteer",
+      "name": "Volunteer Experience",
+      "type": "basic",
+      "items": [],
+      "columns": 2,
+      "visible": true
+    },
+    "references": {
+      "id": "references",
+      "name": "References",
+      "type": "basic",
+      "items": [],
+      "columns": 2,
+      "visible": true
+    },
+    "publications": {
+      "id": "publications",
+      "name": "Publications",
+      "type": "basic",
+      "items": [
+        {
+          "id": "3567f78f-6523-4d29-b223-a7b74789a1a6",
+          "url": "https://awstip.com/building-sso-service-with-django-76f6f40e91fe",
+          "date": "2022-08-29T17:53:59.000Z",
+          "name": " Building SSO service with django",
+          "summary": "",
+          "publisher": "Medium"
+        }
+      ],
+      "columns": 1,
+      "visible": true
+    },
+    "certifications": {
+      "id": "certifications",
+      "name": "Awards",
+      "type": "basic",
+      "items": [],
+      "columns": 2,
+      "visible": true
+    }
+  },
+  "metadata": {
+    "css": {
+      "value": "/* Enter custom CSS here */\n\n* {\n    outline: 1px solid #000;\n}",
+      "visible": false
+    },
+    "date": {
+      "format": "MMMM DD, YYYY"
+    },
+    "page": {
+      "format": "A4"
+    },
+    "theme": {
+      "text": "#000000",
+      "primary": "#195c86",
+      "background": "#ffffff"
+    },
+    "layout": [
+      [
+        [
+          "work",
+          "projects",
+          "volunteer",
+          "references",
+          "publications"
+        ],
+        [
+          "skills",
+          "interests",
+          "languages",
+          "education",
+          "awards",
+          "certifications"
+        ]
+      ]
+    ],
+    "locale": "en",
+    "language": "en",
+    "template": "pikachu",
+    "typography": {
+      "size": {
+        "body": 12,
+        "heading": 23
+      },
+      "family": {
+        "body": "Open Sans",
+        "heading": "Open Sans"
+      }
+    }
+  },
+  "public": true
+}
