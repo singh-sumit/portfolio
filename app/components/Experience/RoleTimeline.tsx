@@ -47,7 +47,6 @@ export const RoleTimeline = ({}) => {
       cardHeight={200}
       slideShow
       enableDarkToggle
-
     />
   )
 }

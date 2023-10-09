@@ -1,6 +1,6 @@
 import 'boxicons';
 
-export const BoxIcon = ({type, name})=>{
+export const BoxIcon = ({type="regular", name})=>{
   return (
     // @ts-ignore
     <box-icon

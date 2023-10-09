@@ -1,12 +1,12 @@
 "use client";
 import React from "react";
 import {Image} from "@nextui-org/react";
-import numericMindsLogo from "@/public/images/company/numeric_mind.jpeg";
-import nimbleLogo from "@/public/images/company/nimble.jpeg";
+import numericMindsFlatLogo from "@/public/images/company/numeric_mind_flat.png";
+import nimbleFlatLogo from "@/public/images/company/nimble-flat.png";
 
 const logoMap = {
-  "numeric_minds": numericMindsLogo,
-  "nimble-cr": nimbleLogo
+  "numeric_minds": numericMindsFlatLogo,
+  "nimble-cr": nimbleFlatLogo
 }
 
 export const CompanyIcon = ({companyKey}) => {

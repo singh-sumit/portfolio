@@ -5,7 +5,7 @@ export const About = ({content, name}) => {
 
     return (
         <section
-          id="About"
+          id="about"
           className="min-h-screen flex flex-row justify-around p-4">
             <AboutContent
                 content={content}

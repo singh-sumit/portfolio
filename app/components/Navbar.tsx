@@ -20,6 +20,7 @@ export const Navbar = () => {
         "About",
         "Experience",
         "Projects",
+        "Education",
         "Contact",
     ];
 
@@ -31,7 +32,6 @@ export const Navbar = () => {
 
     return (
         <NextUINavbar
-            isBordered
             isMenuOpen={isMenuOpen}
             onMenuOpenChange={setIsMenuOpen}
         >
@@ -61,7 +61,7 @@ export const Navbar = () => {
                                     isActive={activeMenu == menu}
                                     className="hidden lg:flex tracking-widest"
                         >
-                            <Link href={`#${menu}`}
+                            <Link href={`#${menu.toLowerCase()}`}
                                   {...activeMenu == menu ? {} : {color: "foreground"}}
                                 // color="foreground"
                                   id={menu}
@@ -82,7 +82,7 @@ export const Navbar = () => {
                             color={
                                 activeMenu == item ? "primary" : "foreground"
                             }
-                            href="#"
+                            href={`#${item.toLowerCase()}`}
                             size="lg"
                             id={item}
                             onClick={navMenuClick}

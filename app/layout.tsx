@@ -1,9 +1,13 @@
 import './globals.css'
 import type { Metadata } from 'next'
-import { Inter, Orbitron } from 'next/font/google'
+import { Inter, Orbitron, Questrial } from 'next/font/google'
 import {Providers} from "@/app/providers";
 
 const inter = Inter({ subsets: ['latin'] })
+const questrial = Questrial({
+    subsets: ['latin'],
+    weight: ['400']
+})
 
 const orbitron = Orbitron({
     subsets: ['latin'],
@@ -22,7 +26,7 @@ export default function RootLayout({
 }) {
   return (
     <html lang="en" className='dark text-foreground bg-background tracking-normal'>
-      <body className={orbitron.className}>
+      <body className={questrial.className}>
           <Providers>
             {children}
           </Providers>

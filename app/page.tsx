@@ -4,11 +4,12 @@ import {About} from "@/app/components/About";
 import {Experience} from "@/app/components/Experience";
 import {Project} from "@/app/components/Project";
 import {Contact} from "@/app/components/Contact";
+import {Education} from "@/app/components/Education";
 export default function Home() {
   const name = "Er. Sumit Kr. Singh"
 
   const content = {
-        "summary": "o Computer engineer with 2 years of professional experience and 2+ years of non-professional experience, in core python, javascript, and other tech stack used in software development, clinical domain.\n\n\no Self-motivated developer, interested in architecture development, who likes to solve challenging problems.",
+        "summary": "Computer engineer with 2 years of professional experience and 2+ years of non-professional experience, in core python, javascript, and other tech stack used in software development, clinical domain.\n\n\no Self-motivated developer, interested in architecture development, who likes to solve challenging problems.",
         "headline": "Software Engineer | NEC Reg. No. - 9577 | Python | Django | ReactJs | Azure",
     }
 
@@ -21,6 +22,7 @@ export default function Home() {
       />
       <Experience />
       <Project />
+      <Education />
       <Contact />
     </main>
   )
