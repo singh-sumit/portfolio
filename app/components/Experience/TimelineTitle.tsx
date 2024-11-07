@@ -42,10 +42,11 @@ export const TimelineCardTitle=({position, company}) =>{
   )
 }
 
-export const TimelineCardDetailedText = ({tasks, techStacks}) =>{
+export const TimelineCardDetailedText = ({tasks, responsibilities, techStacks}) =>{
 
   return (
       <div>
+        <i className="font-semibold">Key Highlights: </i>
         <ul className="list-disc text-xs p-4 text-default-250">
           {
             tasks.map((task, index)=>(
@@ -54,13 +55,23 @@ export const TimelineCardDetailedText = ({tasks, techStacks}) =>{
             )
           }
         </ul>
+        
+        <i className="font-semibold">Responsibilities: </i>
+        <ul className="list-disc text-xs p-4 text-default-250">
+          {
+            responsibilities.map((responsibility, index)=>(
+              <li>{responsibility}</li>
+              )
+            )
+          }
+          </ul>
         <div
           className=""
         >
           {
             techStacks.map((tech, index)=> (
                 <Button color="default" variant="bordered" size="sm"
-                        className="text-default m-1"
+                        className="text-default-500 m-1"
                 >
                   {tech}
                 </Button>
