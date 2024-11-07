@@ -1,7 +1,7 @@
 {
   "basics": {
     "name": "Er. Sumit Kumar Singh",
-    "email": "singhsumit9824@gmail.com",
+    "email": "nghsumit@gmail.com",
     "phone": "+9779824361394",
     "photo": {
       "url": "https://cdn.rxresu.me/uploads/281200/273038/1669827126561.jfif",
@@ -395,5 +395,12 @@
       }
     }
   },
-  "public": true
+  "public": true,
+  "about": {
+    "name": "Sumit Kumar Singh",
+    "title": "Er.",
+    "headline": "Software Engineer | NEC Reg. No. - 9577 | Python | Django | Flask | ReactJs | Azure",
+    "summary": "Highly motivated Software Engineer with ##EXPERTISE_YEAR##+ years of experience building web applications. Proven ability to adapt and thrive in diverse environments, having worked on projects for both startups and large enterprises. Skilled in a variety of languages, platforms, and frameworks. Enthusiastic learner constantly seeking new challenges and opportunities to expand my knowledge. Team player with a strong work ethic, eager to collaborate and contribute to successful project outcomes.",
+    "work_start_year": 2021
+  }
 }

@@ -28,7 +28,7 @@ export const ProjectCard = ({projects}) => {
               </div>
               <Card
                 isBlurred
-                className="border-none bg-background/60 dark:bg-success-600/60 h-96 w-[45%] absolute left-[50%] top-[35%] z-10
+                className="border-none bg-background/60 light:bg-success-600/60 h-96 w-[45%] absolute left-[50%] top-[35%] z-10
                 text-default-50
                 "
                 shadow="sm"
@@ -166,7 +166,7 @@ export const ProjectCard = ({projects}) => {
                   className="object-cover"
                   height={200}
                   isZoomed
-                  isBlurred
+                  // isBlurred
                   shadow="sm"
                   loading="lazy"
                   src={project.image}

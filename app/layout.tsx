@@ -25,8 +25,8 @@ export default function RootLayout({
   children: React.ReactNode
 }) {
   return (
-    <html lang="en" className='dark text-foreground bg-background tracking-normal'>
-    <body className={questrial.className}>
+    <html lang="en" className="text-foreground bg-background">
+    <body className={inter.className}>
     <Providers>
       {children}
     </Providers>

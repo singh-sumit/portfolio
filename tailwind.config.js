@@ -1,5 +1,5 @@
 /** @type {import('tailwindcss').Config} */
-const {nextui} = require("@nextui-org/react");
+const { nextui } = require("@nextui-org/react");
 module.exports = {
     content: [
         './pages/**/*.{js,ts,jsx,tsx,mdx}',
@@ -12,7 +12,7 @@ module.exports = {
             tightest: '-.075em',
             tighter: '-.05em',
             tight: '-.025em',
-            normal: '0.18em',
+            normal: '0.11em',
             wide: '.025em',
             wider: '.05em',
             widest: '.2em',
@@ -38,7 +38,7 @@ module.exports = {
                     layout: {}, // light theme layout tokens
                     colors: {
                         primary: {
-                            DEFAULT: "#BEF264",
+                            DEFAULT: "#1f6a37",
                             foreground: "#000000",
                         },
                         focus: "#BEF264",
