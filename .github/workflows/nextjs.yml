@@ -27,13 +27,12 @@ jobs:
           node-version: "20"
           cache: "npm"
 
-      # Auto-injects basePath / assetPrefix into next.config.js so that
-      # /portfolio project-site URLs resolve correctly for _next/* assets.
+      # We handle basePath / assetPrefix ourselves in next.config.js from the
+      # NEXT_PUBLIC_BASE_PATH env below. Do NOT pass static_site_generator here
+      # — it would auto-patch next.config.js and clash with our explicit config.
       - name: Setup Pages
         id: pages
         uses: actions/configure-pages@v5
-        with:
-          static_site_generator: next
 
       - name: Restore Next.js cache
         uses: actions/cache@v4
