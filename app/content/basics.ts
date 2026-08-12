@@ -21,8 +21,8 @@ export const basics: Basics = {
     {
       key: "linkedin",
       label: "LinkedIn",
-      href: "https://linkedin.com/in/ersumitsingh",
-      handle: "ersumitsingh",
+      href: "https://linkedin.com/in/er-sumitsingh",
+      handle: "er-sumitsingh",
     },
     {
       key: "medium",
