@@ -1,29 +1,34 @@
-import Image from 'next/image'
-import {Navbar} from "@/app/components/Navbar";
-import {About} from "@/app/components/About";
-import {Experience} from "@/app/components/Experience";
-import {Project} from "@/app/components/Project";
-import {Contact} from "@/app/components/Contact";
-import {Education} from "@/app/components/Education";
-export default function Home() {
-  const name = "Er. Sumit Kr. Singh"
+import { Navbar } from "@/app/components/Navbar";
+import { Hero } from "@/app/components/Hero";
+import { Experience } from "@/app/components/Experience";
+import { Skills } from "@/app/components/Skills";
+import { OpenSource } from "@/app/components/OpenSource";
+import { Projects } from "@/app/components/Projects";
+import { Writing } from "@/app/components/Writing";
+import { Education } from "@/app/components/Education";
+import { Certifications } from "@/app/components/Certifications";
+import { Contact } from "@/app/components/Contact";
+import { Footer } from "@/app/components/Footer";
+import { getBlogPosts } from "@/lib/blog";
 
-  const content = {
-        "summary": "Computer engineer with 2 years of professional experience and 2+ years of non-professional experience, in core python, javascript, and other tech stack used in software development, clinical domain.\n\n\no Self-motivated developer, interested in architecture development, who likes to solve challenging problems.",
-        "headline": "Software Engineer | NEC Reg. No. - 9577 | Python | Django | ReactJs | Azure",
-    }
+export default async function Home() {
+  const posts = await getBlogPosts();
 
   return (
-    <main className="container mx-auto min-h-screen p-2">
+    <>
       <Navbar />
-      <About
-        content={content}
-        name={name}
-      />
-      <Experience />
-      <Project />
-      <Education />
-      <Contact />
-    </main>
-  )
+      <main>
+        <Hero />
+        <Experience />
+        <Skills />
+        <OpenSource />
+        <Projects />
+        <Writing posts={posts} />
+        <Education />
+        <Certifications />
+        <Contact />
+      </main>
+      <Footer />
+    </>
+  );
 }

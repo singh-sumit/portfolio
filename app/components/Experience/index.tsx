@@ -1,22 +1,29 @@
 "use client";
 
-import {Divider} from "@nextui-org/react";
-import {WorkExperience} from "@/app/components/Experience/WorkExperience";
+import dynamic from "next/dynamic";
+import { SectionHeading } from "@/app/components/SectionHeading";
 
-export const Experience = ({}) => {
+const WorkTimeline = dynamic(
+  () => import("./WorkTimeline").then((m) => m.WorkTimeline),
+  {
+    ssr: false,
+    loading: () => (
+      <div className="h-96 animate-pulse rounded-lg bg-muted/50" aria-hidden />
+    ),
+  }
+);
 
+export function Experience() {
   return (
-    <section
-      id="experience"
-      className="min-h-screen p-4 mt-36"
-    >
-      <h2 className="text-3xl text-primary text-center">
-        Where I've worked.
-        <Divider className="w-96 mx-auto"/>
-      </h2>
-      <div className="flex flex-row justify-around align-center work-timeline">
-        <WorkExperience />
+    <section id="experience" className="scroll-mt-20 py-20">
+      <div className="container">
+        <SectionHeading
+          eyebrow="01 · Where I've worked"
+          title="Experience"
+          description="From clinical research to defence-grade drone connectivity — four production roles, 5+ years."
+        />
+        <WorkTimeline />
       </div>
     </section>
-  )
+  );
 }
