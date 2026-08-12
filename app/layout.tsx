@@ -22,7 +22,9 @@ const jetbrainsMono = JetBrains_Mono({
   display: "swap",
 });
 
-const siteUrl = "https://singh-sumit.github.io";
+const siteOrigin = "https://singh-sumit.github.io";
+const basePath = process.env.NEXT_PUBLIC_BASE_PATH || "";
+const siteUrl = `${siteOrigin}${basePath}`;
 const siteTitle = `${basics.name} — ${basics.title}`;
 const siteDescription = basics.summary;
 

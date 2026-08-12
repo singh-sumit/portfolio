@@ -8,6 +8,7 @@ import { GithubIcon } from "@/app/components/icons/brands";
 import { Button } from "@/app/components/ui/button";
 import { Badge } from "@/app/components/ui/badge";
 import { basics } from "@/app/content/basics";
+import { withBase } from "@/lib/urls";
 
 export function Hero() {
   const reduce = useReducedMotion();
@@ -107,7 +108,7 @@ export function Hero() {
             <div className="relative overflow-hidden rounded-3xl border border-border/60 bg-card shadow-xl">
               <div className="aspect-[3/4] w-full">
                 <Image
-                  src={basics.profileImage}
+                  src={withBase(basics.profileImage)}
                   alt={`Portrait of ${basics.name}`}
                   width={864}
                   height={1200}

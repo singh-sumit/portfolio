@@ -6,6 +6,7 @@ import * as React from "react";
 import { experience } from "@/app/content/experience";
 import { Badge } from "@/app/components/ui/badge";
 import { ExternalLink } from "lucide-react";
+import { withBase } from "@/lib/urls";
 
 import elsightLogo from "@/public/images/company/elsight.jpeg";
 import numericLogo from "@/public/images/company/numeric_mind_flat.png";
@@ -15,8 +16,8 @@ const logoMap: Record<string, string> = {
   elsight: elsightLogo.src,
   numeric_minds: numericLogo.src,
   "nimble-cr": nimbleLogo.src,
-  simjung: "/images/company/simjung.png",
-  kimbutech: "/images/company/kimbutech.svg",
+  simjung: withBase("/images/company/simjung.png"),
+  kimbutech: withBase("/images/company/kimbutech.svg"),
 };
 
 function formatMonth(iso: string): string {

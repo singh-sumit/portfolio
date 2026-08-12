@@ -1,6 +1,8 @@
 import type { MetadataRoute } from "next";
 
-const siteUrl = "https://singh-sumit.github.io";
+const siteOrigin = "https://singh-sumit.github.io";
+const basePath = process.env.NEXT_PUBLIC_BASE_PATH || "";
+const siteUrl = `${siteOrigin}${basePath}`;
 
 export default function sitemap(): MetadataRoute.Sitemap {
   return [
